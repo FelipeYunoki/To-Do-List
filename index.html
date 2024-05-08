@@ -13,26 +13,34 @@
 
     <div id="container">
         <form action="">
-            <div class="group">
-                <label for="">Descrição:</label>
-                <input id="description" type="text" required>
+            <div id="information">
+                <div class="group">
+                    <label for="">Descrição:</label>
+                    <input id="description" type="text" required>
+                </div>
+    
+                <div class="group">
+                    <label for="">Responsável:</label>
+                    <input id="responsible" type="text"  required>
+                </div>
+    
+                <div class="group">
+                    <label for="">Data de início:</label>
+                    <input type="date" required>
+                </div>
+    
+                <div class="group">
+                    <label for="">Data de entrega:</label>
+                    <input type="date" required>
+                </div>
             </div>
 
-            <div class="group">
-                <label for="">Responsável:</label>
-                <input id="responsible" type="text"  required>
-            </div>
-
-            <div class="group">
-                <label for="">Data de início:</label>
-                <input type="date" required>
-            </div>
-
-            <div class="group">
-                <label for="">Data de entrega:</label>
-                <input type="date" required>
-            </div>
+            <button onclick="salve()">Cadastrar</button>
         </form>
+
+        <ul id="taskList">
+            
+        </ul>
     </div>
     <script src="js/script.js"></script>
 </body>

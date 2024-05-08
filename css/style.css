@@ -22,7 +22,7 @@ header {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-#container form {
+#information {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -60,4 +60,15 @@ input[type="submit"] {
 
 input[type="submit"]:hover {
     background-color: #555;
+}
+
+button {
+    display: block;
+    margin: 0 auto;
+    padding: 5px 8px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background: #008000;
+    color: #FFF;
 }
